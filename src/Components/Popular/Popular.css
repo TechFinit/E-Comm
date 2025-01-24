@@ -8,7 +8,7 @@
 
 .popular h1{
     color: #171717;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
 }
 
@@ -20,7 +20,8 @@
 }
 
 .popular-item{
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     gap: 30px;
+    margin-bottom: 30px;
 }

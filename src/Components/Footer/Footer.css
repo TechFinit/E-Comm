@@ -12,9 +12,13 @@
     gap: 20px;
 }
 
+.footer-logo img{
+width: 80px;
+}
+
 .footer-logo p{
     color: #383838;
-    font-size: 46px;
+    font-size: 42px;
     font-weight: 700;
 }
 
@@ -23,7 +27,7 @@
     list-style: none;
     gap: 50px;
     color: #252525;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer-links li{
@@ -40,6 +44,10 @@
     padding-bottom: 6px;
     background: #fbfbfb;
     border: 1px solid #ebebeb;
+}
+
+.footer-icons-container img{
+    width: 27px;
 }
 
 .footer-copyright{

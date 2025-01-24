@@ -1,10 +1,14 @@
-import React from 'react'
-import './CSS/LoginSignup.css'
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import './CSS/LoginSignup.css';
 
 const LoginSignup = () => {
+  
+  const navigate = useNavigate();
   return (
-    <div className='loginsignup'>
+      <div className='loginsignup'>
         <div className="loginsignup-container">
+          <div className="close-btn" onClick={() => navigate('/')}>✖</div>
           <h1>Sign Up</h1>
           <div className="loginsignup-fields">
             <input type="text" placeholder='Your Name' />
@@ -16,12 +20,12 @@ const LoginSignup = () => {
             Already have an account? <span>Login Here</span>
           </p>
           <div className="loginsignup-agree">
-            <input type="checkbox" name='' id=''/>
-            <p>By continuing, i agree to the terms of use & privacy policy.</p>
+            <input type="checkbox" name='' id='' />
+            <p>By continuing, I agree to the terms of use & privacy policy.</p>
           </div>
         </div>
-    </div>
-  )
-}
+      </div>
+  );
+};
 
-export default LoginSignup
+export default LoginSignup;

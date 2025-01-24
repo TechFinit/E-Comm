@@ -1,5 +1,5 @@
 .descriptionbox{
-    margin: 120px 170px;
+    margin: 50px 170px;
 }
 
 .descriptionbox-navigator{
@@ -28,5 +28,5 @@ color: #555;
     gap: 25px;
     border: 1px solid #d0d0d0;
     padding: 48px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
 }

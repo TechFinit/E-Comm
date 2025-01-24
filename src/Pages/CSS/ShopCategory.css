@@ -1,12 +1,12 @@
 .shopcategory-banner{
     display: block;
     margin: 30px auto;
-    width: 82%; 
+    width: 82%;
 }
 
 .shopcategory-indexSort{
     display: flex;
-    margin: 0px 170px;
+    margin: 12px 136px;
     justify-content: space-between;
     align-items: center;
 }
@@ -21,18 +21,20 @@
    font-weight: 600; 
 }
 
-.shopcategory-products{
-    margin: 20px 170px;
+.shopcategory-products {
+    width: 96%; /* Ensure it aligns with .shopcategory-banner */
+    margin: 0 auto; /* Center the grid */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 80px;
+    grid-template-columns: repeat(4, 1fr); /* Ensures equal columns */
+    gap: 20px; /* Adds consistent spacing */
 }
+
 
 .shopcategory-loadmore{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 150px auto;
+    margin: 75px auto;
     width: 233px;
     height: 69px;
     border-radius: 75px;

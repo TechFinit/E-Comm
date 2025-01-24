@@ -1,6 +1,6 @@
 .productdisplay{
     display: flex;
-    margin: 0px 170px;
+    margin: 0px 160px;
 }
 
 .productdisplay-left{
@@ -11,34 +11,34 @@
 .productdisplay-img-list{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 33.5px;
 }
 
 .productdisplay-img-list img{
-    height: 163px;
+    height: 100px;
 }
 
 .productdisplay-main-img{
-    width: 586px;
-    height: 700px;
+    width: 480px;
+    height: 500px;
 }
 
 .productdisplay-right{
-    margin: 0px 70px;
+    margin: 0px 50px;
     display: flex;
     flex-direction: column;
 }
 
 .productdisplay-right h1{
     color: #3d3d3d;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .productdisplay-right-stars{
     display: flex;
     align-items: center;
-    margin-top: 13px;
+    margin-top: 8px;
     gap: 5px;
     color: #1c1c1c;
     font-size: 16px;
@@ -46,23 +46,24 @@
 
 .productdisplay-right-prices{
     display: flex;
-    margin: 40px 0px;
+    margin: 20px 0px;
     gap: 30px;
-    font-size: 24px;
     font-weight: 700;
 }
 
 .productdisplay-right-price-old{
     color: #818181;
     text-decoration: line-through;
+    font-size: 23px;
 }
 
 .productdisplay-right-price-new{
     color: #ff4141;
+    font-size: 24px;
 }
 
 .productdisplay-right-size h1{
-    margin-top: 55px;
+    margin-top: 20px;
     color: #656565;
     font-size: 20px;
     font-weight: 600;
@@ -70,12 +71,12 @@
 
 .productdisplay-right-sizes{
     display: flex;
-    margin: 30px 0px;
+    margin: 10px 0px;
     gap: 20px;
 }
 
 .productdisplay-right-sizes div{
-    padding: 18px 24px;
+    padding: 8px 24px;
     background: #fbfbfb;
     border: 1px solid #ebebeb;
     border-radius: 3px;
@@ -83,13 +84,14 @@
 }
 
 .productdisplay-right button{
-    padding: 20px 40px;
-    width: 200px;
+    padding: 20px 10px;
+    width: 180px;
     font-size: 16px;
     font-weight: 600;
     color: white;
     background: #ff4141;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     border: none;
     outline: none;
     cursor: pointer;
